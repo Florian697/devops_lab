@@ -1,0 +1,1 @@
+# В чём отличие GitHub Actions от GitLab CI?
