@@ -52,7 +52,7 @@
 
 - `restore-keys:` — шаблоны для восстановления (если точно такого нет)
 
-`    - name: 🔨 Build Docker image
+`    - name: Build Docker image
       run: |
         docker build -t my-fastapi-app ./app
 `

@@ -24,7 +24,7 @@ jobs:
         restore-keys: |
           ${{ runner.os }}-buildx-
 
-    - name: 🔨 Build Docker image
+    - name: Build Docker image
       run: |
         docker build -t my-fastapi-app ./app
 
